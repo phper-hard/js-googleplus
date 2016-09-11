@@ -3,6 +3,7 @@
 
 前端：html5+css3+js
 后端：php+mysql
+兼容：Google Chrome、Mozilla Firefox、ie7+浏览器
 
 功能有：
 可编辑div
