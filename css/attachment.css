@@ -1,0 +1,47 @@
+.fu_list {
+	width:488px;
+	background:#ebebeb;
+	font-size:12px;
+}
+.fu_list td {
+	padding:5px;
+	line-height:20px;
+	background-color:#fff;
+}
+.fu_list table {
+	width:100%;
+	border:1px solid #ebebeb;
+}
+.fu_list thead td {
+	background-color:#f4f4f4;
+}
+.fu_list b {
+	font-size:14px;
+}
+/*file容器样式*/
+a.files {
+	width:90px;
+	height:30px;
+	overflow:hidden;
+	display:block;
+	border:1px solid #BEBEBE;
+	background:url(../images/fu_btn.gif) left top no-repeat;
+	text-decoration:none;
+}
+a.files:hover {
+	background-color:#FFFFEE;
+	background-position:0 -30px;
+}
+/*file设为透明，并覆盖整个触发面*/
+a.files input {
+	margin-left:-350px;
+	font-size:30px;
+	cursor:pointer;
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+/*取消点击时的虚线框*/
+a.files, a.files input {
+	outline:none;/*ff*/
+	hide-focus:expression(this.hideFocus=true);/*ie*/
+}
