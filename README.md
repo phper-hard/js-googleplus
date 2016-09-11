@@ -21,3 +21,4 @@
 2、修改config.inc.php中的数据库配置信息
 3、uploads权限需要可写
 4、测试
+5、详细使用说明参考doc目录下：operation-manual.doc
